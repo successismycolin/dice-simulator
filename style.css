@@ -5,8 +5,15 @@ body{
     background-position: left;
     font-family: "Honk", system-ui;
 }
+#headerLabel{
+    font-size: 3rem;
+    /* border-bottom: 5px solid; */
+}
 #container{
     text-align: center;
+}
+#numOfDice{
+    font-size: larger;
 }
 #numOfDiceTextbox{
     border-radius: 5px;
@@ -15,6 +22,8 @@ body{
 }
 button{
     font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 5px 10px;
     border: none;
     font-weight: bold;
@@ -28,11 +37,13 @@ button:hover{
 }
 #diceResult{
     text-align: center;
-    padding: 25px 25px;
+    padding: 45px 45px;
+    font-size: 1.6rem;
 }
 #diceIcons {
     text-align: center;
     font-size: 2rem;
+    padding: 25px 25px;
 }
 /* #id child-of-id (i for icon in this case) */
 #diceIcons i{
