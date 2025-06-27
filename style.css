@@ -1,0 +1,9 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.584), rgba(255, 0, 0, 0.53));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+}
+#container{
+    text-align: center;
+}
