@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Simulator</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
         <h1 id="headerLabel">Dice Simulator</h1>
         <label id="numOfDice"># of Dice:</label>
-        <input type="number" id="numOfDiceTextbox">
+        <input type="number" id="numOfDiceTextbox" min="1" value="">
         <button id="rollButton" onclick="rollDice()">Roll</button>
     </div>
     <script src="index.js"></script>    
